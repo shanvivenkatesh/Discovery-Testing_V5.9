@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="discovery.AdvancedSearchOnTest.AS_RecordCreator_CreatorType_DateRange">
+        <methods>
+          <include name="CreatorType_DateRange"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_RecordCreator_CreatorType_DateRange -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

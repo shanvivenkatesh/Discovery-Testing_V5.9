@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Discovery]">
+  <test name="Sar(failed)">
+    <classes>
+      <class name="discovery.Sar.Sar_HO45237211FoiRequest">
+        <methods>
+          <include name="HO45237211FoiRequest"/>
+        </methods>
+      </class> <!-- discovery.Sar.Sar_HO45237211FoiRequest -->
+    </classes>
+  </test> <!-- Sar(failed) -->
+  <test name="Ecommerce(failed)">
+    <classes>
+      <class name="discovery.Ecommerce.PageCheckRequestACopy">
+        <methods>
+          <include name="PageCheckRequestACopy"/>
+        </methods>
+      </class> <!-- discovery.Ecommerce.PageCheckRequestACopy -->
+      <class name="discovery.Ecommerce.Dsa1939registerClickNo">
+        <methods>
+          <include name="Dsa1939registerClickNo"/>
+        </methods>
+      </class> <!-- discovery.Ecommerce.Dsa1939registerClickNo -->
+      <class name="discovery.Ecommerce.Dsa1939registerClickYes">
+        <methods>
+          <include name="Dsa1939registerClickYes"/>
+        </methods>
+      </class> <!-- discovery.Ecommerce.Dsa1939registerClickYes -->
+      <class name="discovery.Ecommerce.Foi1939register">
+        <methods>
+          <include name="Foi1939register"/>
+        </methods>
+      </class> <!-- discovery.Ecommerce.Foi1939register -->
+      <class name="discovery.Ecommerce.HomeGuard">
+        <methods>
+          <include name="HomeGuard"/>
+        </methods>
+      </class> <!-- discovery.Ecommerce.HomeGuard -->
+      <class name="discovery.Ecommerce.WO416">
+        <methods>
+          <include name="WO416"/>
+        </methods>
+      </class> <!-- discovery.Ecommerce.WO416 -->
+    </classes>
+  </test> <!-- Ecommerce(failed) -->
+  <test name="AdvancedSearchOnTest(failed)">
+    <classes>
+      <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_Open_SpecificDate">
+        <methods>
+          <include name="Open_SpecificDate"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_ClosureStatus_Open_SpecificDate -->
+      <class name="discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_Taxonomy_Witchcraft">
+        <methods>
+          <include name="SearchTheNA_Taxonomy_Witchcraft"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_Taxonomy_Witchcraft -->
+      <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_Retained_AnyTime">
+        <methods>
+          <include name="Retained_AnyTime"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_ClosureStatus_Retained_AnyTime -->
+      <class name="discovery.AdvancedSearchOnTest.AS_SearchOtherArchives">
+        <methods>
+          <include name="SearchOtherArchives"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_SearchOtherArchives -->
+      <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_close_SpecificDate">
+        <methods>
+          <include name="close_SpecificDate"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_ClosureStatus_close_SpecificDate -->
+      <class name="discovery.AdvancedSearchOnTest.AS_ClosureStatus_PartiallyOpen_AnyTime">
+        <methods>
+          <include name="PartiallyOpen_AnyTime"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_ClosureStatus_PartiallyOpen_AnyTime -->
+      <class name="discovery.AdvancedSearchOnTest.AS_Records_SearchTheTNA_Reference_IncludeContent">
+        <methods>
+          <include name="SearchTheTNA_Reference_IncludeContent"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_Records_SearchTheTNA_Reference_IncludeContent -->
+      <class name="discovery.AdvancedSearchOnTest.AS_AutoLookUp_ByGovernmentDepartment">
+        <methods>
+          <include name="verifyLookUp"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_AutoLookUp_ByGovernmentDepartment -->
+      <class name="discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_CatalogueLevel">
+        <methods>
+          <include name="SearchTheNA_CatalogueLevel"/>
+        </methods>
+      </class> <!-- discovery.AdvancedSearchOnTest.AS_Records_SearchTheNA_CatalogueLevel -->
+    </classes>
+  </test> <!-- AdvancedSearchOnTest(failed) -->
+  <test name="BasicSearchOnTest(failed)">
+    <classes>
+      <class name="discovery.BasicSearchOnTest.BS_LessThan10000_Export1000RecordsAsXML">
+        <methods>
+          <include name="Export1000RecordsAsXML"/>
+        </methods>
+      </class> <!-- discovery.BasicSearchOnTest.BS_LessThan10000_Export1000RecordsAsXML -->
+      <class name="discovery.BasicSearchOnTest.BS_LessThan10000_SortedBy_Alldropdowns">
+        <methods>
+          <include name="SortedBy_Alldropdowns"/>
+        </methods>
+      </class> <!-- discovery.BasicSearchOnTest.BS_LessThan10000_SortedBy_Alldropdowns -->
+      <class name="discovery.BasicSearchOnTest.BS_LessThan10000_Export1000RecordCreatorAsXML">
+        <methods>
+          <include name="Export1000RecordCreatorAsXML"/>
+        </methods>
+      </class> <!-- discovery.BasicSearchOnTest.BS_LessThan10000_Export1000RecordCreatorAsXML -->
+      <class name="discovery.BasicSearchOnTest.BS_LessThan10000ExportAllRecordsAsCSV">
+        <methods>
+          <include name="LessThan10000ExportAllRecordsAsCSV"/>
+        </methods>
+      </class> <!-- discovery.BasicSearchOnTest.BS_LessThan10000ExportAllRecordsAsCSV -->
+      <class name="discovery.BasicSearchOnTest.BS_LessThan10000_ExportAllRecordCreatorsAsCSV">
+        <methods>
+          <include name="ExportAllRecordCreatorsAsCSV"/>
+        </methods>
+      </class> <!-- discovery.BasicSearchOnTest.BS_LessThan10000_ExportAllRecordCreatorsAsCSV -->
+    </classes>
+  </test> <!-- BasicSearchOnTest(failed) -->
+  <test name="FindAnAichiveOnTest(failed)">
+    <classes>
+      <class name="discovery.FindAnAichiveOnTest.FA_BrowseByCountryName">
+        <methods>
+          <include name="closeBrowser"/>
+          <include name="BrowseCountryname"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- discovery.FindAnAichiveOnTest.FA_BrowseByCountryName -->
+    </classes>
+  </test> <!-- FindAnAichiveOnTest(failed) -->
+  <test name="ManorSearchOnTest(failed)">
+    <classes>
+      <class name="discovery.ManorSearchOnTest.MS_ForManorDocuments_KeyWordSearch">
+        <methods>
+          <include name="ForMonorDocuments_KeyWordSearch"/>
+        </methods>
+      </class> <!-- discovery.ManorSearchOnTest.MS_ForManorDocuments_KeyWordSearch -->
+    </classes>
+  </test> <!-- ManorSearchOnTest(failed) -->
+  <test name="DetailPageOnTest(failed)">
+    <classes>
+      <class name="discovery.DetailPageOnTest.DetailPage_ErrorOnRecordDescription">
+        <methods>
+          <include name="DetailPage_ErrorOnRecordDescription"/>
+        </methods>
+      </class> <!-- discovery.DetailPageOnTest.DetailPage_ErrorOnRecordDescription -->
+    </classes>
+  </test> <!-- DetailPageOnTest(failed) -->
+</suite> <!-- Failed suite [Discovery] -->
