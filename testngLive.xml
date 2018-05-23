@@ -1,0 +1,203 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Discovery" verbose="1" >
+   <test name="Subscription">
+    <classes>
+      <class name="discovery.Subscription.SubscriptionMoDMedalResearchOffice"/>
+      
+      </classes>
+       </test>
+      
+       <test name="AdvancedSearchOnLive">
+    <classes>
+      <class name="discovery.AdvancedSearchOnLive.AS_ClosureStatus_close_SpecificDate"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_ClosureStatus_Open_SpecificDate"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_ClosureStatus_PartiallyOpen_AnyTime"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_ClosureStatus_Retained_AnyTime"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_RecordCreator_CreatorType_CheckBox_Years"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_RecordCreator_CreatorType_DateRange"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_Records_DateRange_SearchAll"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_Records_SearchTheNA_Taxonomy_Witchcraft"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_Records_SpecificDate_SearchAll"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_Reference_SearchAll"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_Search_Find_DontFindWord"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_SearchOtherArchives"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_Records_SearchTheTNA_Reference_IncludeContent"/>
+      <class name="discovery.AdvancedSearchOnLive.AS_Records_SearchTheNA_CatalogueLevel" />
+      <class name="discovery.AdvancedSearchOnLive.AS_AutoLookUp_ByGovernmentDepartment" />
+      <class name="discovery.AdvancedSearchOnLive.AS_AutoLookUp_OtherArchives" />
+      
+      </classes>
+       </test>
+      
+       <test name="BasicSearchOnLive">
+    <classes>
+      <class name="discovery.BasicSearchOnLive.BS_FilterResult_VerifyCollectionAndSubjects"/>
+      <class name="discovery.BasicSearchOnLive.BS_GreaterThan10000_ExportFirst1000RecordCreatorAsHTML"/>
+      <class name="discovery.BasicSearchOnLive.BS_LessThan10000_Export1000RecordCreatorAsXML"/>
+      <class name="discovery.BasicSearchOnLive.BS_LessThan10000_Export1000RecordsAsXML"/>
+      <class name="discovery.BasicSearchOnLive.BS_LessThan10000_ExportAllRecordCreatorsAsCSV"/>
+      <class name="discovery.BasicSearchOnLive.BS_LessThan10000_SortedBy_Alldropdowns"/>
+      <class name="discovery.BasicSearchOnLive.BS_LessThan10000_SortedBy_Reference"/>
+      <class name="discovery.BasicSearchOnLive.BS_LessThan10000ExportAllRecordsAsCSV"/>
+      <class name="discovery.BasicSearchOnLive.BS_NoOfRecordsPerPage15And30And60"/>
+      <class name="discovery.BasicSearchOnLive.BS_RecordCreator_filterresult"/>
+      <class name="discovery.BasicSearchOnLive.BS_VerifyTotalNoOfRRecordsAndRecordCreators"/>
+      <class name="discovery.BasicSearchOnLive.BS_VerifyTotalNoOfRecordsEachLink"/>
+      
+      </classes>
+       </test>
+      
+       <test name="FindAnAichiveOnLive">
+    <classes>
+      <class name="discovery.FindAnAichiveOnLive.FA_BrowseByCountryName"/>
+      <class name="discovery.FindAnAichiveOnLive.FA_ChooseRegion"/>
+      <class name="discovery.FindAnAichiveOnLive.FA_HomeNation"/>
+      <class name="discovery.FindAnAichiveOnLive.FA_UsingMap"/>
+      <class name="discovery.FindAnAichiveOnLive.FA_Export1000RecordsAsXML"/>
+      <class name="discovery.FindAnAichiveOnLive.FA_ExportAllRecordsAsCSV"/>
+      <class name="discovery.FindAnAichiveOnLive.FA_ExportFirst1000RecordCreatorAsHTML"/>
+      
+      </classes>
+       </test>
+      
+       <test name="ManorSearchOnLive">
+    <classes>
+      <class name="discovery.ManorSearchOnLive.MS_ByManor_VerifyRecordsCreator"/>
+      <class name="discovery.ManorSearchOnLive.MS_ForManorDocuments_KeyWordSearch"/>
+      <class name="discovery.ManorSearchOnLive.MS_ForManorDocuments_VerifyRecords"/>
+      
+      </classes>
+       </test>
+      
+       <test name="DetailPageOnLive">
+    <classes>
+      <class name="discovery.DetailPageOnLive.Verify_DetailPage_OnAllLevels"/>
+       <class name="discovery.DetailPageOnLive.Verify_DetailPage_OnSeriesLevel"/>
+        <class name="discovery.DetailPageOnLive.DetailPage_ErrorOnRecordDescription"/>
+         <class name="discovery.DetailPageOnLive.DetailPage_CouldThisPageBeImproved_NO"/>
+          <class name="discovery.DetailPageOnLive.DetailPage_CouldThisPageBeImproved_Yes"/>
+          <class name="discovery.DetailPageOnLive.DetailPage_ShowImages"/>
+          
+        
+        </classes>
+         </test>
+        
+         <test name="BrowseOnLive">
+    <classes>
+      <class name="discovery.BrowseOnLive.Browse_Archives"/>
+      <class name="discovery.BrowseOnLive.Record_Creators"/>
+      <class name="discovery.BrowseOnLive.Records_Of_OtherArchives"/>
+      <class name="discovery.BrowseOnLive.Records_Of_TNA"/>
+      
+      </classes>
+       </test>
+       <test name="TagOnLive">
+    <classes>
+    <class name="discovery.TagOnLive.DeleteTag"/>
+    <class name="discovery.TagOnLive.AddTag"/>
+     <class name="discovery.TagOnLive.DuplicateAddTag"/>
+    <class name="discovery.TagOnLive.SelfTagRemovalRequestNoSignIn"/>
+     <class name="discovery.TagOnLive.StopListTag"/>
+            
+      </classes>
+       </test>
+      
+       <test name="BookmarkOnLive">
+    <classes>
+      <class name="discovery.BookmarkOnLive.Bookmark_add_Rename_Delete"/>
+      
+      </classes>
+       </test>
+      
+       <test name="SingleSignOnLive">
+    <classes>
+      <class name="discovery.SingleSignOnLive.SS_clickRegisterwithEmptyFields"/>
+      <class name="discovery.SingleSignOnLive.SS_clickRegisterwithInvalidEmail"/>
+      <class name="discovery.SingleSignOnLive.SS_clickRegisterwithInvalidPassword"/>
+      <class name="discovery.SingleSignOnLive.SS_CreateAccount_ChangeEmail_ChangePassword_DeleteAccount"/>
+      <class name="discovery.SingleSignOnLive.SS_ForgttenPassword"/>
+      <class name="discovery.SingleSignOnLive.SS_NoAcceptTerm"/>
+      
+      </classes>
+       </test>
+      
+       <test name="DownlaodRecordOnLive">
+    <classes>
+      <class name="discovery.DownlaodRecordOnLive.Veriy_DownloadOption_ForStaff"/>
+      <class name="discovery.DownlaodRecordOnLive.Veriy_DownloadOption_InAccount"/>
+      <class name="discovery.DownlaodRecordOnLive.Veriy_DownloadOption_OnConfirmationPage"/>
+           
+       </classes>
+ </test>
+ 
+ <test name="Discovery Fileauthorities_API">
+    <classes>
+      
+          <class name="fileauthorities_API.Discovery_API_Collections"/>
+          <class name="fileauthorities_API.Discovery_API_Flieauthorities"/> 
+       </classes>
+ </test>
+ 
+ <test name="Discovery Records_API">
+    <classes>
+      
+          <class name="records_API.Discovery_API_Records_Children_parentID"/>
+          <class name="records_API.Discovery_API_Records_Collection"/>
+            <class name="records_API.Discovery_API_Records_Context_Id"/> 
+              <class name="records_API.Discovery_API_Records_Details"/> 
+       </classes>
+ </test>
+ 
+ 
+ <test name="repository_API">
+    <classes>
+      
+          <class name="repository_API.Discovery_API_Repository_Collection"/>
+          <class name="repository_API.Discovery_API_Repository_details_Id"/>
+           
+       </classes>
+ </test>
+ 
+ <test name="searchForFileAuthorities_API">
+    <classes>
+      
+          <class name="searchForFileAuthorities_API.Discovery_API_SearchForFileAuthorities"/>
+        
+           
+       </classes>
+ </test>
+ 
+ <test name="searchForRepositories_API">
+    <classes>
+      
+          <class name="searchForRepositories_API.Discovery_API_SearchForRepositories_Archives"/>
+        
+           
+       </classes>
+       
+       </test>
+       
+       <test name="searchReords_API">
+    <classes>
+      
+          <class name="searchReords_API.Discovery_API_SearchRecords_Records"/>
+        
+           
+       </classes>
+       
+       </test>
+       
+        <test name="cabinetPapersSearchOnLiveOnLive">
+    <classes>
+      
+          <class name="cabinetPapersSearchOnLive.CabinetPapers_Date_descriptionOnly"/>
+          <class name="cabinetPapersSearchOnLive.CabinetPapers_Document_descriptionOnly"/>
+          <class name="cabinetPapersSearchOnLive.CabinetPapers_Educationresources"/>
+          <class name="cabinetPapersSearchOnLive.CabinetPapers_EntireDocument"/>
+          <class name="cabinetPapersSearchOnLive.CabinetPapers_FilterbyAll_EntireDocument"/>
+        
+           
+       </classes>
+       
+       </test>
+</suite>
