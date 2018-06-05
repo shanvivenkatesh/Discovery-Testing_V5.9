@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="discovery.AdvancedSearchOnTest.AS_RecordCreator_CreatorType_DateRange">
+      <class name="discovery.Ecommerce.PageCheckRequestACopy">
         <methods>
-          <include name="CreatorType_DateRange"/>
+          <include name="PageCheckRequestACopy"/>
         </methods>
-      </class> <!-- discovery.AdvancedSearchOnTest.AS_RecordCreator_CreatorType_DateRange -->
+      </class> <!-- discovery.Ecommerce.PageCheckRequestACopy -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

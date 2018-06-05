@@ -1,7 +1,5 @@
 package discovery.Ecommerce;
 
-import static org.testng.Assert.assertTrue;
-
 import java.awt.AWTException;
 import java.awt.Robot;
 import java.awt.Toolkit;
@@ -10,10 +8,9 @@ import java.awt.event.KeyEvent;
 import java.io.IOException;
 
 import org.openqa.selenium.JavascriptExecutor;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Dsa1939registerClickYes extends Wrapper{
+public class Dsa1939registerClickYes_old extends Wrapper{
 	
 	@Test
 	
@@ -35,7 +32,7 @@ public class Dsa1939registerClickYes extends Wrapper{
 		
 		Thread.sleep(3000);
 		
-		((JavascriptExecutor)driver).executeScript("scroll(0,3000)");
+		((JavascriptExecutor)driver).executeScript("scroll(0,1800)");
 		
 		//are yout the data subjsect
 		Thread.sleep(3000);
@@ -79,31 +76,25 @@ public class Dsa1939registerClickYes extends Wrapper{
 		enterTextById("address1", "63lloyd");
 		enterTextById("town", "London");
 		enterTextById("postcode", "Ha51eg");
-		//driver.executeScript("scroll(0,200)");
-		((JavascriptExecutor)driver).executeScript("scroll(0,3500)");
+		
 		Thread.sleep(3000);
 		selectByValue_UsingId("country", "United Kingdom");
 		
-			
+		Thread.sleep(5000);
 		
+		
+		((JavascriptExecutor)driver).executeScript("scroll(0,3000)");
 		
 		Thread.sleep(5000);
 		//Declaration
 		clickbyID("Confirm");
 		
-		
-		
 		//Add to basket
 				clickbyXpath("//input[@class='discoveryPrimaryCallToActionLink']");
 				
-				String confirmationText=getTextByXpath("(//div[@class='container'])[4]");
-				System.out.println(confirmationText);
-				
-				Assert.assertTrue(confirmationText.contains("Confirmation"));
-				
-				
+				Thread.sleep(3000);
 				 
-				 /*//click checkout
+				 //click checkout
 				 clickbyXpath("//input[@class='call-to-action-link']");
 				 
 				 //enter email id
@@ -135,9 +126,8 @@ public class Dsa1939registerClickYes extends Wrapper{
 				
 		
 		
-*/
+
 		
-				driver.quit();
 		
 		
 		

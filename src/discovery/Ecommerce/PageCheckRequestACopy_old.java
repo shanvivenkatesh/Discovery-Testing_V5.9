@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class PageCheckRequestACopy extends Wrapper {
+public class PageCheckRequestACopy_old extends Wrapper {
 
 	@Test
 	public void PageCheckRequestACopy() throws IOException,
@@ -15,28 +15,25 @@ public class PageCheckRequestACopy extends Wrapper {
 				"http://test.discovery.nationalarchives.gov.uk/details/r/C6553048#?readertype=offsite",
 				"chrome");
 
-	
+		Thread.sleep(3000);
+
 		// click request copy
 		clickbyXpath("(//a[@class='discoveryPrimaryCallToActionLink'])[2]");
 
-				
-		driver.executeAsyncScript("(scroll(0,300))");
+		Thread.sleep(3000);
 
 		// click get started
- //clickbyLinkText("Get started");
+
 		clickByClassName("discoveryPrimaryCallToActionLink");
-		
-		
-		//Thread.sleep(3000);
 
-		//driver.findElementByXPath("//div[@class='button-holder ']/a").click();
+		Thread.sleep(3000);
 
-	
 		// click the check box on certified copy
 
 		// clickbyXpath("(//input[@name='CertifiedCopy'])[1]");
 
-		
+		Thread.sleep(3000);
+
 		// Enter the details of the copy
 
 		driver.findElementByXPath("//*[@id='CustomerInstructions']").sendKeys(
@@ -44,7 +41,7 @@ public class PageCheckRequestACopy extends Wrapper {
 
 		// enterTextById("//textarea[@id='CustomerInstructions']", "Research");
 
-		
+		Thread.sleep(3000);
 
 		// click add to basket
 

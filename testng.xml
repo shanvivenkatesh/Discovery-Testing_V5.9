@@ -162,6 +162,8 @@
      <class name="discovery.TagOnTest.DuplicateAddTag"/>
     <class name="discovery.TagOnTest.SelfTagRemovalRequestNoSignIn"/>
      <class name="discovery.TagOnTest.StopListTag"/>
+      <class name="discovery.TagOnTest.MaxTagLength"/>
+       <class name="discovery.TagOnTest.tagforTwoCharactor"/>
             
       </classes>
        </test>
@@ -251,14 +253,14 @@
        
        </test>
        
-        <test name="cabinetPapersSearch">
+        <test name="cabinetPapersSearchOnTest">
     <classes>
       
-          <class name="cabinetPapersSearch.CabinetPapers_Date_descriptionOnly"/>
-          <class name="cabinetPapersSearch.CabinetPapers_Document_descriptionOnly"/>
-          <class name="cabinetPapersSearch.CabinetPapers_Educationresources"/>
-          <class name="cabinetPapersSearch.CabinetPapers_EntireDocument"/>
-          <class name="cabinetPapersSearch.CabinetPapers_FilterbyAll_EntireDocument"/>
+          <class name="cabinetPapersSearchOnTest.CabinetPapers_Date_descriptionOnly"/>
+          <class name="cabinetPapersSearchOnTest.CabinetPapers_Document_descriptionOnly"/>
+          <class name="cabinetPapersSearchOnTest.CabinetPapers_Educationresources"/>
+          <class name="cabinetPapersSearchOnTest.CabinetPapers_EntireDocument"/>
+          <class name="cabinetPapersSearchOnTest.CabinetPapers_FilterbyAll_EntireDocument"/>
         
            
        </classes>

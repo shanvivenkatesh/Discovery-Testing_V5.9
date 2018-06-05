@@ -11,7 +11,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
 
-public class Foi1939register extends Wrapper {
+public class Foi1939register_old extends Wrapper {
 	@Test
 	public void Foi1939register() throws IOException, InterruptedException,	AWTException {
 
@@ -59,7 +59,7 @@ public class Foi1939register extends Wrapper {
 		// WebElement
 		// element=driver.findElementByXPath("//input[@name='deathCertFile']");
 
-		((JavascriptExecutor) driver).executeScript("scroll(0,2800)");
+		((JavascriptExecutor) driver).executeScript("scroll(0,1000)");
 
 		Thread.sleep(5000);
 
@@ -105,7 +105,8 @@ public class Foi1939register extends Wrapper {
 		selectByValue_UsingId("country", "United Kingdom");
 		Thread.sleep(3000);
 
-			// Add to basket
+		((JavascriptExecutor) driver).executeScript("scroll(0,2000)");
+		// Add to basket
 		clickbyXpath("//input[@class='discoveryPrimaryCallToActionLink']");
 
 		Thread.sleep(3000);

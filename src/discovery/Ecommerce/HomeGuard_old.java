@@ -10,7 +10,7 @@ import java.io.IOException;
 import org.openqa.selenium.JavascriptExecutor;
 import org.testng.annotations.Test;
 
-public class HomeGuard extends Wrapper {
+public class HomeGuard_old extends Wrapper {
 
 	@Test
 	public void HomeGuard() throws IOException,InterruptedException, AWTException {
@@ -37,7 +37,7 @@ public class HomeGuard extends Wrapper {
           Thread.sleep(5000);
 		
 		
-		((JavascriptExecutor)driver).executeScript("scroll(0,1700)");
+		((JavascriptExecutor)driver).executeScript("scroll(0,1400)");
 		Thread.sleep(3000);		
 		clickbyXpath("//input[@type='file']");
 		
@@ -79,7 +79,6 @@ public class HomeGuard extends Wrapper {
 		 	 
 		 driver.findElementById("address1").sendKeys("63 Lloydcourt");
 		 
-		 driver.findElementByXPath("//input[@id='town']").sendKeys("London");
 		 		 
 		 driver.findElementById("postcode").sendKeys("Ha51eg");
 		 

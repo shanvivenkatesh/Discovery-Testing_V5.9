@@ -8,10 +8,9 @@ import java.awt.event.KeyEvent;
 import java.io.IOException;
 
 import org.openqa.selenium.JavascriptExecutor;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class Dsa1939registerClickNo extends Wrapper {
+public class Dsa1939registerClickNo_old extends Wrapper {
 
 	@Test
 	public void Dsa1939registerClickNo() throws IOException,
@@ -35,7 +34,7 @@ public class Dsa1939registerClickNo extends Wrapper {
 
 		Thread.sleep(3000);
 
-		((JavascriptExecutor) driver).executeScript("scroll(0,2800)");
+		((JavascriptExecutor) driver).executeScript("scroll(0,1800)");
 
 		// are yout the data subjsect
 		Thread.sleep(5000);
@@ -121,7 +120,7 @@ public class Dsa1939registerClickNo extends Wrapper {
 
 		Thread.sleep(5000);
 
-		//((JavascriptExecutor) driver).executeScript("scroll(0,3000)");
+		((JavascriptExecutor) driver).executeScript("scroll(0,3000)");
 
 		Thread.sleep(5000);
 		// Declaration
@@ -131,14 +130,8 @@ public class Dsa1939registerClickNo extends Wrapper {
 		clickbyXpath("//input[@class='discoveryPrimaryCallToActionLink']");
 
 		Thread.sleep(3000);
-		
 
-		String confirmationText=getTextByXpath("(//div[@class='container'])[4]");
-		System.out.println(confirmationText);
-		
-		Assert.assertTrue(confirmationText.contains("Confirmation"));
-
-		/*// click checkout
+		// click checkout
 		clickbyXpath("//input[@class='call-to-action-link']");
 
 		// enter email id
@@ -166,8 +159,8 @@ public class Dsa1939registerClickNo extends Wrapper {
 		clickbyID("PMMakePayment");
 
 		Thread.sleep(3000);
-*/
-		driver.quit();
+
+		driver.close();
 
 	}
 
